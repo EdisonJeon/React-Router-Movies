@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import MovieCard from "./MovieCard";
 
 export default function Movie(props) {
   console.log("Movie component has fired!");
