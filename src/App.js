@@ -9,6 +9,7 @@ export default function App() {
   console.log("App component fired!");
   const [saved, setSaved] = useState([]); // Stretch: the ids of "saved" movies
   const [movies, setMovies] = useState([]);
+  
  
 
   const addToSavedList = (id) => {
